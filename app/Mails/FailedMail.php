@@ -28,7 +28,7 @@ class FailedMail extends Mailable
                     'msg' =>'Failed',
                 ]);
         } catch (Exception $e) {
-           return null
+           return null;
         }
         
     }
